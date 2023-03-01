@@ -4,7 +4,17 @@ html {
 }
 .head{
   text-align: center;
+  font-size: 150%;
 }
-#{
+
+body{
   text-align: center;
+}
+.code{
+  width: 100%;
+
+
+}
+.xp{
+  font-size: 125%;
 }
