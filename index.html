@@ -12,21 +12,37 @@
   <div class="head">
     codingcom
   </div>
-  <div class="xp" id ="xp">
+  <div class="xp" id="xp">
     0 xp
   </div>
   <div id="prompt">
     Prompt will be here
   </div>
+  <!--
   <textarea name="code" id="code" cols="40" rows="5"></textarea>
   <br>
-  <button class="run" onclick="runprogram()">Submit</button>
-  <div id="output">
-    output here...
-  </div>
-
+  <form >
+    <input type="submit" value="Open Script">
+  </form>
+  <br>
   
-  <script src="script.js"></script>
-</body>
+  <button onclick="run.php" id="run" class="run">Submit</button>
+  
+  -->
 
+  <label for="program-input">Enter C++ Program:</label><br>
+  <textarea id="program-input" rows="10" cols="50"></textarea><br>
+  <button onclick="runProgram()">Run Program</button>
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+
+<!-- <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/node-open/8.4.2/index.js"></script> -->
+<!-- <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script> -->
+  
+<!-- <script  src="script.js"></script>
+   -->
+<!-- <script src="https://bundle-repl.amasad.repl.co/bundle/@the-electoro-bros/Real-website"></script> -->
+<!--   <script src="index.ts"></script>  -->
+</body>
 </html>
